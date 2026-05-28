@@ -12,12 +12,12 @@ public class prog1{
 
         n = sc.nextInt();
 
-        for(int i=1;i<=n;i++)
+        for(int i=1 ; i<=n ; i++)
         {
-            sum=sum+i;
+            sum = sum + i;
         }
 
-        System.out.print("ADDITION" + sum);
+        System.out.print(" ADDITION " + sum);
 
     }
 } 
