@@ -13,5 +13,5 @@ public class prog2 {
             System.out.println(n + " x " + i + " = " + (n * i));
 
     }
-   
+
 }
