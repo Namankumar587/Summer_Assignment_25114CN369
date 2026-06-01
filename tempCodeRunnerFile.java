@@ -1,1 +1,1 @@
-//Write a program to Find nth Fibonacci term.
+Write a program to Print Armstrong numbers in a range.
