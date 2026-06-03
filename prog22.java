@@ -1,7 +1,5 @@
 //Write a program to Convert binary to decimal. 
 
-
-
 import java.util.Scanner;
 
 public class prog22 {
