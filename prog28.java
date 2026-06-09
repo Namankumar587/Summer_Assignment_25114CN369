@@ -1,4 +1,4 @@
-//Write a program to Recursive reverse number
+//Write a program to Recursive reverse number.
 
 import java.util.Scanner;
 
@@ -15,5 +15,14 @@ public class prog28 {
             num = num / 10;
         }
         System.out.println("Reversed number: " + reversed);
+    }
+    public static int reverseNumber(int n) {
+        int reversed = 0;
+        while(n != 0) {
+            int digit = n % 10;
+            reversed = reversed * 10 + digit;
+            n = n / 10;
+        }
+        return reversed;
     }
 }

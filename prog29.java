@@ -1,28 +1,30 @@
-//Write a program to Recursive reverse number.
+//Write a program to Print half pyramid pattern.
 
 import java.util.Scanner;
 
 public class prog29 {
-    public static void main () {
-        int num, reversed = 0;
-        System.out.println("Enter a number: ");
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        num = sc.nextInt();
+        System.out.println("Enter the number of rows: ");
+        int rows = sc.nextInt();
 
-        while(num != 0) {
-            int digit = num % 10;
-            reversed = reversed * 10 + digit;
-            num = num / 10;
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
         }
-        System.out.println("Reversed number: " + reversed);
     }
-    public static int reverseNumber(int n) {
-        int reversed = 0;
-        while(n != 0) {
-            int digit = n % 10;
-            reversed = reversed * 10 + digit;
-            n = n / 10;
+    public static void main() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of rows: ");
+        int rows = sc.nextInt();
+
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
-        return reversed;
     }
 }

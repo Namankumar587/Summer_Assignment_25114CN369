@@ -1,10 +1,9 @@
-//Write a program to Print reverse star pattern.
-//*****
-//****
-//***
-//**
-//*
-
+//Write a program to Print reverse number triangle.
+//12345
+//1234
+//123
+//12
+//1
 
 import java.util.Scanner;
 
@@ -16,7 +15,7 @@ public class prog34 {
 
         for (int i = rows; i >= 1; i--) {
             for (int j = 1; j <= i; j++) {
-                System.out.print(" * ");
+                System.out.print(j + " ");
             }
             System.out.println();
         }

@@ -1,9 +1,10 @@
-//Write a program to Print character triangle.
-//A
-//AB
-//ABC
-//ABCD
-//ABCDE
+//Write a program to Print repeated-number pattern.
+//1
+//22
+//333
+//4444
+//55555
+
 
 import java.util.Scanner;
 
@@ -15,8 +16,7 @@ public class prog32 {
 
         for (int i = 1; i <= rows; i++) {
             for (int j = 1; j <= i; j++) {
-                char ch = (char) ('A' + j - 1);
-                System.out.print(ch + " ");
+                System.out.print(i + " ");
             }
             System.out.println();
         }

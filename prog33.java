@@ -1,9 +1,9 @@
-//Write a program to Print repeated-number pattern.
-//1
-//22
-//333
-//4444
-//55555
+//Write a program to Print reverse star pattern.
+//*****
+//****
+//***
+//**
+//*
 
 
 import java.util.Scanner;
@@ -14,12 +14,11 @@ public class prog33 {
         System.out.println("Enter the number of rows: ");
         int rows = sc.nextInt();
 
-        for (int i = 1; i <= rows; i++) {
+        for (int i = rows; i >= 1; i--) {
             for (int j = 1; j <= i; j++) {
-                System.out.print(i + " ");
+                System.out.print(" * ");
             }
             System.out.println();
         }
     }
-    
 }
